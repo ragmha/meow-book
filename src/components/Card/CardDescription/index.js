@@ -1,5 +1,5 @@
 import React from 'react';
-import CardForm from './CardForm';
+import CardForm from '../CardForm';
 
 import './index.css';
 const CardDescription = ({ about, email, phone, location }) => (
