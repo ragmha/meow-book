@@ -4,7 +4,7 @@
 
 ## Getting Started 🚀
 
-* ```$ git clone https://github.com/ragmha/meow.git```
+* ```$ git clone https://github.com/ragmha/meow-book.git```
 
 * ```$ yarn```
 
