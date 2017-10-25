@@ -3,7 +3,9 @@ import PropTypes from 'prop-types';
 
 import './index.css';
 
-const Avatar = ({ src, alt }) => <img src={src} alt="avatar" />;
+const Avatar = ({ src, alt }) => (
+  <img className="avatar" src={src} alt="avatar" />
+);
 
 Avatar.propTypes = {
   src: PropTypes.string.isRequired,
