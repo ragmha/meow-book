@@ -14,7 +14,7 @@ const CardProfile = ({ img, header }) => (
 
 CardProfile.defaultProps = {
   img:
-    'https://i.pinimg.com/736x/1d/83/e0/1d83e0f607b7b1de607fff558a573b6c--cat-smile-smile-smile.jpg',
+    'https://orig00.deviantart.net/f37a/f/2014/262/e/a/cat_snarl_animation_by_warriorluvr127-d7zsimv.gif',
   header: 'Mr. Meow',
 };
 
