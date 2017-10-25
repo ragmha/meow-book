@@ -1,21 +1,25 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
+
 import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
-}
+import Menu from './components/Menu';
+import Gallery from './components/Gallery';
+import CardProfile from './components/Card/CardProfile';
+import CardDescription from './components/Card/CardDescription';
+import CardContent from './components/Card/CardContent';
+
+const App = () => (
+  <div className="main">
+    <Menu />
+    <div className="main-col-1">
+      <CardProfile />
+      <Gallery />
+    </div>
+    <div className="main-col-2">
+      <CardDescription />
+      <CardContent />
+    </div>
+  </div>
+);
 
 export default App;
