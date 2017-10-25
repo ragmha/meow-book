@@ -2,13 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import './index.css';
-import stockImg from './cat.png';
+
+const stockImg =
+  'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/1f5dac30344325.561e92024f623.png';
 
 const Gallery = ({ images }) => (
   <section>
     {images.map((image, i) => (
       <div className="media" key={i}>
-        <img src={image} alt="" />
+        <img src={stockImg} alt="" />
       </div>
     ))}
   </section>
